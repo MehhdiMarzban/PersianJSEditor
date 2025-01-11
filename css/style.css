@@ -1,0 +1,325 @@
+@media only screen and (min-width: 320px) {
+    .pjs-form-responsive {
+        width: 100% !important;
+    }
+    .sticky-top {
+        position: static;
+    }
+}
+@media only screen and (min-width: 425px) {
+    .pjs-form-responsive {
+        width: 80% !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .pjs-form-responsive {
+        width: 60% !important;
+    }
+    .sticky-top {
+        position: sticky;
+    }
+    .carousel-item .card {
+        height: 400px !important;
+    }
+}
+.pjs-primary-color {
+    color: #733dd8 !important;
+}
+.pjs-secondary-color {
+    color: #4b6584 !important;
+}
+.active {
+    color: #733dd8 !important;
+}
+.pjs-navbar-hover {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pjs-navbar-hover:hover {
+    background-color: #733dd8;
+    color: #fff !important;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.pjs-hover:hover {
+    color: #733dd8 !important;
+}
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Regular.eot");
+    src: url("../fonts/Vazir-Regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir-Regular.woff2") format("woff2"),
+        url("../fonts/Vazir-Regular.woff") format("woff"),
+        url("../fonts/Vazir-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Bold.eot");
+    src: url("../fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir-Bold.woff2") format("woff2"),
+        url("../fonts/Vazir-Bold.woff") format("woff"),
+        url("../fonts/Vazir-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Black.eot");
+    src: url("../fonts/Vazir-Black.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir-Black.woff2") format("woff2"),
+        url("../fonts/Vazir-Black.woff") format("woff"),
+        url("../fonts/Vazir-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Medium.eot");
+    src: url("../fonts/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir-Medium.woff2") format("woff2"),
+        url("../fonts/Vazir-Medium.woff") format("woff"),
+        url("../fonts/Vazir-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Light.eot");
+    src: url("../fonts/Vazir-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir-Light.woff2") format("woff2"),
+        url("../fonts/Vazir-Light.woff") format("woff"),
+        url("../fonts/Vazir-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Vazir;
+    src: url("../fonts/Vazir-Thin.eot");
+    src: url("../fonts/Vazir-Thin.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir-Thin.woff2") format("woff2"),
+        url("../fonts/Vazir-Thin.woff") format("woff"),
+        url("../fonts/Vazir-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+* {
+    font-family: Vazir;
+}
+.pjs-icon-font {
+    font-size: 1.5rem !important;
+}
+.pjs-about-me-font-size {
+    color: #4b6584;
+    text-align: right;
+    direction: rtl;
+    font-size: 0.9rem !important;
+}
+.ltr {
+    direction: ltr !important;
+    text-align: left !important;
+}
+.dropdown-menu {
+    right: unset !important;
+    left: 0 !important;
+}
+#slide-out {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+}
+.custom-scrollbar {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+}
+.md-form label {
+    left: unset !important;
+    right: 0 !important;
+}
+.form-check-input[type="checkbox"] + label:before,
+.form-check-input[type="checkbox"]:not(.filled-in) + label:after,
+label.btn input[type="checkbox"] + label:before,
+label.btn input[type="checkbox"]:not(.filled-in) + label:after {
+    left: unset !important;
+    right: 0 !important;
+    margin-left: 1rem !important;
+}
+.form-check-input[type="checkbox"]:checked + label::before {
+    border-bottom-color: #733dd8 !important;
+    border-right-color: #733dd8 !important;
+}
+.md-form input:focus,
+textarea:focus {
+    border-bottom: 1px solid #733dd8 !important;
+    box-shadow: 0 1px 0 0 #733dd8 !important;
+}
+.md-form label.active {
+    color: #4b6584 !important;
+}
+.page-link.active {
+    background-color: #733dd8 !important;
+    color: #fff !important;
+}
+.md-textarea:focus {
+    border-color: #733dd8;
+}
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+}
+.pjs-code {
+    direction: ltr !important;
+    text-align: left !important;
+    border-radius: 5px !important;
+    margin: 0.5rem 1rem;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    -ms-border-radius: 5px !important;
+    -o-border-radius: 5px !important;
+}
+.carousel-indicators li {
+    background-color: #4b6584 !important;
+}
+.btn-floating {
+    background-color: #4b6584 !important;
+}
+.pjs-primary-background {
+    background-color: #733dd8;
+}
+.pjs-secondary-background {
+    background-color: #4b6584;
+}
+.pjs-main-background {
+    background-color: #fff;
+    background-image: url("../images/mainBackground.svg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-pattern-1 {
+    background-color: #fff;
+    background-image: url("../images/wickedbackground (1).svg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.pjs-btn-primary-outline {
+    color: #733dd8 !important;
+    border: 2px solid #733dd8 !important;
+    font-size: 0.9rem !important;
+}
+.pjs-btn-primary-outline:hover {
+    color: #fff !important;
+    background-color: #733dd8 !important;
+}
+.pjs-btn-secondary-outline {
+    color: #4b6584 !important;
+    border: 2px solid #4b6584 !important;
+    font-size: 0.9rem !important;
+}
+.pjs-btn-secondary-outline:hover {
+    color: #fff !important;
+    background-color: #4b6584 !important;
+}
+.pjs-btn-primary {
+    color: #fff;
+    background-color: #733dd8;
+}
+.pjs-btn-primary:hover {
+    color: #fff;
+    background-color: #4b6584;
+}
+.pjs-btn-primary.active {
+    color: #fff !important;
+    background-color: #4b6584 !important;
+}
+.pjs-tab {
+    display: none;
+}
+.pjs-tab-active {
+    display: flex !important;
+}
+#preLoader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #733dd8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Vazir";
+}
+#content {
+    display: none;
+}
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-hourglass 1.2s infinite;
+}
+@keyframes lds-hourglass {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+        transform: rotate(900deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+        transform: rotate(1800deg);
+    }
+}
+#pjs-snow {
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+} /*# sourceMappingURL=style.css.map */
+.nav-link.active {
+    background-color: #733dd8;
+    color: #fff !important;
+}
+.pjs-run-code-btn {
+    opacity: 0.3;
+    transition: ease all 0.3s;
+    -webkit-transition: ease all 0.3s;
+    -moz-transition: ease all 0.3s;
+    -ms-transition: ease all 0.3s;
+    -o-transition: ease all 0.3s;
+}
+.pjs-run-code-btn:hover {
+    opacity: 1;
+}
+.pjs-main-background {
+    background-color: #fff;
+    background-image: unset;
+}
+@media only screen and (min-width: 768px) {
+    .pjs-main-background {
+        background-color: #fff;
+        background-image: url("../images/mainBackground.svg");
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
