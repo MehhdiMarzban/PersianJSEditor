@@ -65,4 +65,3 @@ For any inquiries, please contact [marzban72@gmail.com].
 ---
 
 Thank you for using the **PersianJS** Web Code Editor! Happy coding!
-```
