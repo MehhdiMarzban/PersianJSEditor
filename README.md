@@ -1,7 +1,7 @@
 # **PerisanJs** Web Code Editor
 
 Welcome to the **PerisanJs** Web Code Editor! This project is a lightweight web application that allows users to write and edit HTML, CSS, and JavaScript code seamlessly. It features support for both light and dark themes, and includes an autocomplete functionality to enhance the coding experience.
-[see demo](https://persian-javascript.liara.run/code-editor.html)
+[see demo](https://mehhdimarzban.github.io/PersianJSEditor/)
 
 ## Features
 
